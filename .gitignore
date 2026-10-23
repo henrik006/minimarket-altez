@@ -1,0 +1,18 @@
+# Entorno virtual y archivos temporales
+.venv/
+__pycache__/
+*.py[cod]
+
+# Excluir bases de datos por defecto
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Permitir la carpeta y la base de datos de demostración
+!datos_demo/
+!datos_demo/ALTES_DEMO.db
+
+# Archivos privados
+.env
+.streamlit/secrets.toml
